@@ -5,10 +5,10 @@ const crypto = require('crypto');
 
 module.exports = async (req, res) => {
   // === Config ===
-  const ACCESS_KEY = process.env.ACCESS_KEY || '1234567-J';
+  const ACCESS_KEY = process.env.ACCESS_KEY || '123456-P';
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
   const REPO_OWNER = process.env.REPO_OWNER || 'peace-amani';
-  const REPO_NAME = process.env.REPO_NAME || 'f-1';
+  const REPO_NAME = process.env.REPO_NAME || 'beryl';
   const BRANCH = process.env.REPO_BRANCH || 'main';
   const ALLOWED_IPS = process.env.ALLOWED_IPS ? process.env.ALLOWED_IPS.split(',') : [];
 
